@@ -1,6 +1,5 @@
 package com.epam.entity;
 
-
 import lombok.*;
 
 @Getter

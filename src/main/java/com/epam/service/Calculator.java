@@ -17,10 +17,10 @@ public class Calculator {
 
     {
         this.map = new HashMap<>();
-        map.put("+", new Addition());
-        map.put("-", new Subtraction());
-        map.put("*", new Multiplication());
-        map.put("/", new Division());
+        this.map.put("+", new Addition());
+        this.map.put("-", new Subtraction());
+        this.map.put("*", new Multiplication());
+        this.map.put("/", new Division());
     }
 
     public Calculator(Memory memory) {
